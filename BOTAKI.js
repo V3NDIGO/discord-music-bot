@@ -16,7 +16,7 @@ const client = new Discord.Client({
     }
   });
   
-  client.login('MTA3MzA2NTg4OTI3ODIwMTg2Nw.G4GoDN.FgO2sBfD2VYNfZldyjqBsbHKmYrK7oi9mIaOKs');
+  client.login('your tokken here');
 
   
 
@@ -77,4 +77,4 @@ function playSong(connection, msg) {
   dispatcher.on('finish', () => playSong(connection, msg));
 }
 
-client.login('MTA3MzA2NTg4OTI3ODIwMTg2Nw.G4GoDN.FgO2sBfD2VYNfZldyjqBsbHKmYrK7oi9mIaOKs');
+client.login('your tokken here');
